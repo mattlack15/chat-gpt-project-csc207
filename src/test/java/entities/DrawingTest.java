@@ -13,7 +13,7 @@ class DrawingTest {
 
     @BeforeEach
     void setUp() {
-        drawing = new Drawing(500, 500);
+        drawing = new Drawing(500, 500, new AntiAliasedLineArtist());
     }
 
     @Test
